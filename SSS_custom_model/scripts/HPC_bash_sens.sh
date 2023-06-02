@@ -1,0 +1,131 @@
+#!/bin/bash
+
+# #catch05
+# sbatch HPC_log_mig_adam_ovr00_fishfav_sens_catch05.slurm
+# sbatch HPC_log_mig_adam_ovr02_fishfav_sens_catch05.slurm
+# sbatch HPC_log_mig_adam_ovr04_fishfav_sens_catch05.slurm
+# sbatch HPC_log_mig_adam_ovr06_fishfav_sens_catch05.slurm
+# sbatch HPC_log_mig_adam_ovr08_fishfav_sens_catch05.slurm
+# sbatch HPC_log_mig_adam_ovr10_fishfav_sens_catch05.slurm
+# sbatch HPC_log_mig_adamtarg_ovr00_fishfav_sens_catch05.slurm
+# sbatch HPC_log_mig_adamtarg_ovr02_fishfav_sens_catch05.slurm
+# sbatch HPC_log_mig_adamtarg_ovr04_fishfav_sens_catch05.slurm
+# sbatch HPC_log_mig_adamtarg_ovr06_fishfav_sens_catch05.slurm
+# sbatch HPC_log_mig_adamtarg_ovr08_fishfav_sens_catch05.slurm
+# sbatch HPC_log_mig_adamtarg_ovr10_fishfav_sens_catch05.slurm
+
+# #catch09
+# sbatch HPC_log_mig_adam_ovr00_fishfav_sens_catch09.slurm
+# sbatch HPC_log_mig_adam_ovr02_fishfav_sens_catch09.slurm
+# sbatch HPC_log_mig_adam_ovr04_fishfav_sens_catch09.slurm
+# sbatch HPC_log_mig_adam_ovr06_fishfav_sens_catch09.slurm
+# sbatch HPC_log_mig_adam_ovr08_fishfav_sens_catch09.slurm
+# sbatch HPC_log_mig_adam_ovr10_fishfav_sens_catch09.slurm
+# sbatch HPC_log_mig_adamtarg_ovr00_fishfav_sens_catch09.slurm
+# sbatch HPC_log_mig_adamtarg_ovr02_fishfav_sens_catch09.slurm
+# sbatch HPC_log_mig_adamtarg_ovr04_fishfav_sens_catch09.slurm
+# sbatch HPC_log_mig_adamtarg_ovr06_fishfav_sens_catch09.slurm
+# sbatch HPC_log_mig_adamtarg_ovr08_fishfav_sens_catch09.slurm
+# sbatch HPC_log_mig_adamtarg_ovr10_fishfav_sens_catch09.slurm
+
+# #q01
+# sbatch HPC_log_mig_adamtarg_ovr00_fishfav_sens_q01.slurm
+# sbatch HPC_log_mig_adamtarg_ovr02_fishfav_sens_q01.slurm
+# sbatch HPC_log_mig_adamtarg_ovr04_fishfav_sens_q01.slurm
+# sbatch HPC_log_mig_adamtarg_ovr06_fishfav_sens_q01.slurm
+# sbatch HPC_log_mig_adamtarg_ovr08_fishfav_sens_q01.slurm
+# sbatch HPC_log_mig_adamtarg_ovr10_fishfav_sens_q01.slurm
+
+# #q03
+# sbatch HPC_log_mig_adamtarg_ovr00_fishfav_sens_q03.slurm
+# sbatch HPC_log_mig_adamtarg_ovr02_fishfav_sens_q03.slurm
+# sbatch HPC_log_mig_adamtarg_ovr04_fishfav_sens_q03.slurm
+# sbatch HPC_log_mig_adamtarg_ovr06_fishfav_sens_q03.slurm
+# sbatch HPC_log_mig_adamtarg_ovr08_fishfav_sens_q03.slurm
+# sbatch HPC_log_mig_adamtarg_ovr10_fishfav_sens_q03.slurm
+
+# #r01
+# sbatch HPC_log_mig_adamtarg_ovr00_fishfav_sens_r01.slurm
+# sbatch HPC_log_mig_adamtarg_ovr02_fishfav_sens_r01.slurm
+# sbatch HPC_log_mig_adamtarg_ovr04_fishfav_sens_r01.slurm
+# sbatch HPC_log_mig_adamtarg_ovr06_fishfav_sens_r01.slurm
+# sbatch HPC_log_mig_adamtarg_ovr08_fishfav_sens_r01.slurm
+# sbatch HPC_log_mig_adamtarg_ovr10_fishfav_sens_r01.slurm
+
+# #r03
+# sbatch HPC_log_mig_adamtarg_ovr00_fishfav_sens_r03.slurm
+# sbatch HPC_log_mig_adamtarg_ovr02_fishfav_sens_r03.slurm
+# sbatch HPC_log_mig_adamtarg_ovr04_fishfav_sens_r03.slurm
+# sbatch HPC_log_mig_adamtarg_ovr06_fishfav_sens_r03.slurm
+# sbatch HPC_log_mig_adamtarg_ovr08_fishfav_sens_r03.slurm
+# sbatch HPC_log_mig_adamtarg_ovr10_fishfav_sens_r03.slurm
+
+# #targdam
+# sbatch HPC_log_mig_adam_ovr00_fishfav_sens_targdam.slurm
+# sbatch HPC_log_mig_adam_ovr02_fishfav_sens_targdam.slurm
+# sbatch HPC_log_mig_adam_ovr04_fishfav_sens_targdam.slurm
+# sbatch HPC_log_mig_adam_ovr06_fishfav_sens_targdam.slurm
+# sbatch HPC_log_mig_adam_ovr08_fishfav_sens_targdam.slurm
+# sbatch HPC_log_mig_adam_ovr10_fishfav_sens_targdam.slurm
+# sbatch HPC_log_mig_adamtarg_ovr00_fishfav_sens_targdam.slurm
+# sbatch HPC_log_mig_adamtarg_ovr02_fishfav_sens_targdam.slurm
+# sbatch HPC_log_mig_adamtarg_ovr04_fishfav_sens_targdam.slurm
+# sbatch HPC_log_mig_adamtarg_ovr06_fishfav_sens_targdam.slurm
+# sbatch HPC_log_mig_adamtarg_ovr08_fishfav_sens_targdam.slurm
+# sbatch HPC_log_mig_adamtarg_ovr10_fishfav_sens_targdam.slurm
+
+# #asparenon
+# sbatch HPC_log_mig_adam_ovr00_fishfav_sens_asparenon.slurm
+# sbatch HPC_log_mig_adam_ovr02_fishfav_sens_asparenon.slurm
+# sbatch HPC_log_mig_adam_ovr04_fishfav_sens_asparenon.slurm
+# sbatch HPC_log_mig_adam_ovr06_fishfav_sens_asparenon.slurm
+# sbatch HPC_log_mig_adam_ovr08_fishfav_sens_asparenon.slurm
+# sbatch HPC_log_mig_adam_ovr10_fishfav_sens_asparenon.slurm
+# sbatch HPC_log_mig_adamtarg_ovr00_fishfav_sens_asparenon.slurm
+# sbatch HPC_log_mig_adamtarg_ovr02_fishfav_sens_asparenon.slurm
+# sbatch HPC_log_mig_adamtarg_ovr04_fishfav_sens_asparenon.slurm
+# sbatch HPC_log_mig_adamtarg_ovr06_fishfav_sens_asparenon.slurm
+# sbatch HPC_log_mig_adamtarg_ovr08_fishfav_sens_asparenon.slurm
+# sbatch HPC_log_mig_adamtarg_ovr10_fishfav_sens_asparenon.slurm
+
+# #sparenon
+# sbatch HPC_log_mig_adam_ovr00_fishfav_sens_sparenon.slurm
+# sbatch HPC_log_mig_adam_ovr02_fishfav_sens_sparenon.slurm
+# sbatch HPC_log_mig_adam_ovr04_fishfav_sens_sparenon.slurm
+# sbatch HPC_log_mig_adam_ovr06_fishfav_sens_sparenon.slurm
+# sbatch HPC_log_mig_adam_ovr08_fishfav_sens_sparenon.slurm
+# sbatch HPC_log_mig_adam_ovr10_fishfav_sens_sparenon.slurm
+# sbatch HPC_log_mig_adamtarg_ovr00_fishfav_sens_sparenon.slurm
+# sbatch HPC_log_mig_adamtarg_ovr02_fishfav_sens_sparenon.slurm
+# sbatch HPC_log_mig_adamtarg_ovr04_fishfav_sens_sparenon.slurm
+# sbatch HPC_log_mig_adamtarg_ovr06_fishfav_sens_sparenon.slurm
+# sbatch HPC_log_mig_adamtarg_ovr08_fishfav_sens_sparenon.slurm
+# sbatch HPC_log_mig_adamtarg_ovr10_fishfav_sens_sparenon.slurm
+
+# #scram
+# sbatch HPC_log_mig_adam_ovr00_fishfav_sens_scram.slurm
+# sbatch HPC_log_mig_adam_ovr02_fishfav_sens_scram.slurm
+# sbatch HPC_log_mig_adam_ovr04_fishfav_sens_scram.slurm
+# sbatch HPC_log_mig_adam_ovr06_fishfav_sens_scram.slurm
+# sbatch HPC_log_mig_adam_ovr08_fishfav_sens_scram.slurm
+# sbatch HPC_log_mig_adam_ovr10_fishfav_sens_scram.slurm
+# sbatch HPC_log_mig_adamtarg_ovr00_fishfav_sens_scram.slurm
+# sbatch HPC_log_mig_adamtarg_ovr02_fishfav_sens_scram.slurm
+# sbatch HPC_log_mig_adamtarg_ovr04_fishfav_sens_scram.slurm
+# sbatch HPC_log_mig_adamtarg_ovr06_fishfav_sens_scram.slurm
+# sbatch HPC_log_mig_adamtarg_ovr08_fishfav_sens_scram.slurm
+# sbatch HPC_log_mig_adamtarg_ovr10_fishfav_sens_scram.slurm
+
+# nspec25
+# sbatch HPC_log_mig_adam_ovr00_fishfav_sens_nspec25.slurm
+# sbatch HPC_log_mig_adam_ovr02_fishfav_sens_nspec25.slurm
+# sbatch HPC_log_mig_adam_ovr04_fishfav_sens_nspec25.slurm
+# sbatch HPC_log_mig_adam_ovr06_fishfav_sens_nspec25.slurm
+# sbatch HPC_log_mig_adam_ovr08_fishfav_sens_nspec25.slurm
+# sbatch HPC_log_mig_adam_ovr10_fishfav_sens_nspec25.slurm
+# sbatch HPC_log_mig_adamtarg_ovr00_fishfav_sens_nspec25.slurm
+# sbatch HPC_log_mig_adamtarg_ovr02_fishfav_sens_nspec25.slurm
+# sbatch HPC_log_mig_adamtarg_ovr04_fishfav_sens_nspec25.slurm
+# sbatch HPC_log_mig_adamtarg_ovr06_fishfav_sens_nspec25.slurm
+# sbatch HPC_log_mig_adamtarg_ovr08_fishfav_sens_nspec25.slurm
+# sbatch HPC_log_mig_adamtarg_ovr10_fishfav_sens_nspec25.slurm
